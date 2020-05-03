@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubSpot Application Testing Suite" duration-ms="45932" started-at="2020-05-02T16:31:32Z" finished-at="2020-05-02T16:32:18Z">
+    <groups>
+    </groups>
+    <test name="HubSpot Login user success scenario using FireFox browser" duration-ms="1219" started-at="2020-05-02T16:31:32Z" finished-at="2020-05-02T16:31:33Z">
+      <class name="com.appTests.loginTest">
+        <test-method status="FAIL" signature="testSetup(java.lang.String)[pri:0, instance:com.appTests.loginTest@f6c48ac]" name="testSetup" is-config="true" duration-ms="1146" started-at="2020-05-02T22:01:32Z" finished-at="2020-05-02T22:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.github.bonigarcia.wdm.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:776)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.appTests.baseTest.testSetup(baseTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.checkPreInstalledVersion(WebDriverManager.java:649)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:531)
+	... 17 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="SKIP" signature="verifyLoginPageTitle()[pri:1, instance:com.appTests.loginTest@f6c48ac]" name="verifyLoginPageTitle" duration-ms="1" started-at="2020-05-02T22:01:33Z" finished-at="2020-05-02T22:01:33Z">
+          <exception class="io.github.bonigarcia.wdm.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:776)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.appTests.baseTest.testSetup(baseTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.checkPreInstalledVersion(WebDriverManager.java:649)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:531)
+	... 17 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="SKIP" signature="testSetup(java.lang.String)[pri:0, instance:com.appTests.loginTest@f6c48ac]" name="testSetup" is-config="true" duration-ms="0" started-at="2020-05-02T22:01:33Z" finished-at="2020-05-02T22:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="SKIP" signature="verifyLoginPageHeaderCheck()[pri:2, instance:com.appTests.loginTest@f6c48ac]" name="verifyLoginPageHeaderCheck" duration-ms="0" started-at="2020-05-02T22:01:33Z" finished-at="2020-05-02T22:01:33Z">
+          <exception class="io.github.bonigarcia.wdm.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:776)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.appTests.baseTest.testSetup(baseTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.checkPreInstalledVersion(WebDriverManager.java:649)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:531)
+	... 17 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderCheck -->
+        <test-method status="SKIP" signature="testSetup(java.lang.String)[pri:0, instance:com.appTests.loginTest@f6c48ac]" name="testSetup" is-config="true" duration-ms="0" started-at="2020-05-02T22:01:33Z" finished-at="2020-05-02T22:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="SKIP" signature="verifyLoginSuccess()[pri:3, instance:com.appTests.loginTest@f6c48ac]" name="verifyLoginSuccess" duration-ms="0" started-at="2020-05-02T22:01:33Z" finished-at="2020-05-02T22:01:33Z">
+          <exception class="io.github.bonigarcia.wdm.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:776)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.appTests.baseTest.testSetup(baseTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.github.bonigarcia.wdm.WebDriverManagerException: MicrosoftWebDriver.exe should be pre-installed in an elevated command prompt executing: dism /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
+	at io.github.bonigarcia.wdm.WebDriverManager.checkPreInstalledVersion(WebDriverManager.java:649)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:531)
+	... 17 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccess -->
+      </class> <!-- com.appTests.loginTest -->
+    </test> <!-- HubSpot Login user success scenario using FireFox browser -->
+    <test name="HubSpot Login user success scenario usng chrome browser" duration-ms="45932" started-at="2020-05-02T16:31:32Z" finished-at="2020-05-02T16:32:18Z">
+      <class name="com.appTests.loginTest">
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:com.appTests.loginTest@42d80b78]" name="testSetup" is-config="true" duration-ms="13274" started-at="2020-05-02T22:01:32Z" finished-at="2020-05-02T22:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:1, instance:com.appTests.loginTest@42d80b78]" name="verifyLoginPageTitle" duration-ms="20" started-at="2020-05-02T22:01:45Z" finished-at="2020-05-02T22:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appTests.loginTest@42d80b78]" name="teardown" is-config="true" duration-ms="788" started-at="2020-05-02T22:01:46Z" finished-at="2020-05-02T22:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:com.appTests.loginTest@42d80b78]" name="testSetup" is-config="true" duration-ms="11640" started-at="2020-05-02T22:01:46Z" finished-at="2020-05-02T22:01:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyLoginPageHeaderCheck()[pri:2, instance:com.appTests.loginTest@42d80b78]" name="verifyLoginPageHeaderCheck" duration-ms="1081" started-at="2020-05-02T22:01:58Z" finished-at="2020-05-02T22:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderCheck -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appTests.loginTest@42d80b78]" name="teardown" is-config="true" duration-ms="868" started-at="2020-05-02T22:01:59Z" finished-at="2020-05-02T22:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:com.appTests.loginTest@42d80b78]" name="testSetup" is-config="true" duration-ms="11543" started-at="2020-05-02T22:02:00Z" finished-at="2020-05-02T22:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyLoginSuccess()[pri:3, instance:com.appTests.loginTest@42d80b78]" name="verifyLoginSuccess" duration-ms="5854" started-at="2020-05-02T22:02:11Z" finished-at="2020-05-02T22:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccess -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appTests.loginTest@42d80b78]" name="teardown" is-config="true" duration-ms="812" started-at="2020-05-02T22:02:17Z" finished-at="2020-05-02T22:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.appTests.loginTest -->
+    </test> <!-- HubSpot Login user success scenario usng chrome browser -->
+  </suite> <!-- HubSpot Application Testing Suite -->
+</testng-results>
